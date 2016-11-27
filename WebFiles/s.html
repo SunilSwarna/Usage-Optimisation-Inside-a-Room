@@ -1,0 +1,31 @@
+
+<html>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-pie-loader.js"></script>
+<div id="demo" class="svg-pie"></div>
+	<div><p>hello</p></div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+$('#demo').svgPie({ percentage: 30 });
+});
+
+	
+	</script>
+	<script type="text/javascript">
+		$('#demo').svgPie({
+
+  easing: 'easeOutCubic',
+
+  dimension: 200,
+
+  percentage: 50,
+
+  duration: 2000,
+
+  onStart: function() {},
+
+  onComplete: function() {}
+});
+	</script>
+
+	<html>
